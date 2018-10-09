@@ -1,0 +1,403 @@
+@media screen and (max-width: 400px){
+    /*#top {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }*/
+            
+    .container-fullscreen h1 {
+        font-size: 30px;
+    }
+    .container-fullscreen img {
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+    }
+
+    .container-fullscreen .title {
+        position: absolute;
+        bottom: 0;
+        width: 101%;
+        /* transform: translateX(-50%); */
+        margin: 0;
+        margin-bottom: 0%;
+    }
+
+        .cajaboton {
+            position: absolute;
+            width: 276px;
+            left: -5px;
+            /* transform: translateX(-50%); */
+            margin: 0;
+            bottom: 0;
+            z-index: 1000;
+            /* margin-bottom: 1%; */
+            border: 1px;
+            border-bottom-color: black;
+            display: block;
+        }
+
+        .botones {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            grid-gap: 26px;
+            margin-right: -208px;
+            margin-left: 159px;
+            margin-bottom: 30px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .botones {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            grid-gap: 26px;
+            margin-right: -223px;
+            margin-left: 159px;
+            margin-bottom: 30px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+
+        .botones > * {
+            background-color: none;
+            color: black;
+            padding: 7px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+            font-family: suecaslabmedium;
+            font-size: 16px;
+            align-content: center;
+            line-height: 20px;
+        }
+
+        .hoy{
+            line-height: 37px;
+        }
+
+        .botones a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .botones a:hover {
+            font-family: suecaslabbold;
+            color: white;
+            text-align: center;
+        }
+        
+
+.botones a:hover {
+    font-family: suecaslabbold;
+    color: white;
+    text-align: center;
+    border-bottom: solid white;
+}
+
+
+.dropdown-content a {
+
+    font-family: suecaslabmedium;
+    border-bottom: solid 1px;
+}
+
+
+.dropbtn {
+    background-color: #FDDF02;
+    color: black;
+    font-family: suecaslabbold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    
+    display: none;
+    position: absolute;
+    align-content: center;
+    background-color: #FDDF02;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: -190px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: black}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:  #FDDF02;
+}
+
+
+
+        
+        a:hover {
+            font-family: suecaslabbold;
+            color: black;
+        }
+
+        .titulo, .titulo2, .titulo3 { /* pueden ponerle el mismo estilo a las 3 clases. Aunque es preferible poner una sola clase llamada titulo*/
+            position: relative;
+            margin-top: 10%;
+            width: 72%;
+            height: 180px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        /*.titulo2 {
+            position: relative;
+            margin-top: 10%;
+            width: 72%;
+            height: 180px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .titulo3 {
+            position: relative;
+            margin-top: 10%;
+            width: 72%;
+            height: 180px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }*/
+
+
+        h2 {
+            padding-top: 2%;
+            font-family: suecaslabmedium;
+            font-size: 29px;
+            color: black;
+            border-top: 12px solid black;
+            padding-bottom: 0%;
+            margin: 0%;
+        }
+
+        h1 {
+            font-family: suecaslabbold;
+            font-size: 35px;
+            color: #33B8FF;
+            padding-bottom: 0.1%;
+            margin-top: 0%;
+        }
+
+
+        p {
+            font-family: suecaslabmedium;
+            font-size: 16px;
+            color: gray;
+            width: 100%;
+            /* margin-left: auto; */
+            /* margin-right: auto; */
+        }
+
+
+        h5 {
+            font-family: suecaslabmedium;
+            font-size: 13px;
+            padding-bottom: 2%;
+            border-bottom: 2px solid rgb(63, 61, 61);
+        }
+
+
+        .grilla1, .grilla2, .grilla3 {
+            position: relative;
+            margin-top: 50px;
+            width: 100%;
+            height: 90%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        /*.grilla2 {
+            position: relative;
+            margin-top: 1%;
+            width: 100%;
+            height: 90%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }*/
+
+        .grilla3 {
+            margin-top: 100px;
+            /*position: relative;
+            width: 100%;
+            height: 90%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;*/
+        }
+
+/* Menu de cabezas */
+
+        .menu1, .menu2, .menu3 {
+            width: 100%;
+            /*height: 987px;*/
+            height: auto;
+            position: relative;
+            display: block;
+            margin-bottom: 25%;
+            margin-top: 10%;
+        }
+
+        .menu2 {
+            height: 1200px;
+        }
+
+        /*.menu3 {
+            width: 100%;
+            height: 987px;
+            position: relative;
+            display: block;
+            margin-bottom: 25%;
+            margin-top: 10%;
+        }*/
+
+
+        .tiempo {
+            display: none;
+            
+        }
+
+        .cabeza_sapiens {
+            display: block;
+            top: 84px;
+            position: relative;
+            width: 100%;
+            height: 559px;
+            margin-top: 0;
+        }
+
+        img {
+            width: 100%;
+            vertical-align: middle;
+            border-style: none;
+        }
+
+
+        .panes_sapiens, .panes_sapiens2, .panes_sapiens3 {
+            display: inline-block;
+            position: relative;
+            width: 80%;
+            height: 400px;
+            /* margin-left: 2%; */
+            /* margin-right: 0%; */
+            margin-top: -26%;
+            top: 40px;
+        }
+
+
+        .Pan1 {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            padding-bottom: 30px;
+        }
+
+        .Pan2 {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            padding-bottom: 30px;
+        }
+
+        h6 {
+            position: relative;
+            font-family: suecaslabbold;
+            font-size: 13px;
+            width: 30px;
+            line-height: 20px;
+            padding-top: 3px;
+            height: 30px;
+            background-color: #FDDF02;
+            border-radius: 50%;
+            align-content: center;
+            text-align: center;
+            margin: left;
+        }
+
+
+        .menu1 .cajaboton2, .menu2 .cajaboton2, .menu3 .cajaboton2 {
+            position: absolute;
+            /*width: 400px;   //////////// es mejor usar porcentaje //////////////*/
+            width: 90%;
+            /*height: 400px;  /////////// le puse auto para que tome la altura de su contenido /////////////*/
+            height: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-left: auto;
+            margin-right: auto;
+            bottom: 0px;
+            border: 1px;
+            border-bottom-color: black;
+            display: block;
+            padding-top: 4%;
+            padding-bottom: 10%;
+        }
+
+        .menu1 .cajaboton2 {
+            bottom: -50px;
+            /*position: absolute;
+            width: 400px;
+            height: 400px;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px;
+            border-bottom-color: black;
+            display: block;
+            padding-top: 4%;*/
+        }
+    
+        .menu3 .cajaboton2 {
+            bottom: -40px;
+/*            position: absolute;
+            width: 400px;
+            height: 400px;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px;
+            border-bottom-color: black;
+            display: block;
+            padding-top: 4%;*/
+        }
+}
